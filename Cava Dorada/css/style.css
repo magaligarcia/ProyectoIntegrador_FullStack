@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
 
+:root{
+  --dorado: #E5D07B;
+  --vino-oscuro: #4D012B;
+  --vino-medio: #63032E;
+  --vino-claro: #7A4044;
+  --rosa-oscuro: #C39393;
+  --rosa-claro: #CCB1B3;
+  --blanco: #FFFFFF;
+}
+
 body {
   font-family: 'Roboto', sans-serif;  
 }
+/*--------------------------------------- NAV -----------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
 
 .navbar {
   background: rgb(80,0,11);
@@ -45,3 +57,145 @@ body {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(229,208,123)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+/*--------------------------------------------- NUESTROS VINOS -----------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+.contenedor-cepas{
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 1%;
+}
+
+.background-tintos, 
+.background-blancos, 
+.background-rosados {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.background-tintos img, 
+.background-blancos img, 
+.background-rosados img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: ease-in .4s;
+}
+
+.background-tintos > div, 
+.background-blancos > div, 
+.background-rosados > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+  
+}
+
+.background-tintos > div p, 
+.background-blancos > div p, 
+.background-rosados > div p {
+  color: var(--vino-oscuro);
+  font-size: 100px;
+  font-family: 'Poiret One', cursive;
+}
+
+.background-tintos img:hover, 
+.background-blancos img:hover, 
+.background-rosados img:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+/*--- TINTOS ---*/
+.cabecera-vinos h1{
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  color: var(--rosa-claro);
+  background-color: var(--vino-oscuro);
+  padding: 26px;
+}
+
+.card-vino{
+  background-color: var(--rosa-claro);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.card-vino-title{
+  font-family: 'Poiret One';
+  font-size: 40px;
+}
+
+.btn-carrito{
+  text-decoration: none;
+  background-color: var(--vino-medio);
+  padding: 6px;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif; 
+  color: var(--blanco);
+}
+
+
+
+
+
+
+/******************************* RESPONSIVE ********************************/
+/***************************************************************************/
+
+/*============================== PHONE ==============================*/
+@media only screen and (min-device-width: 320px){
+
+/*----------------NUESTROS VINOS----------------------*/
+  .cabecera-vinos h1{
+      font-size: 30px;
+  }
+
+  .background-tintos, .background-blancos, .background-rosados {
+      height: 25vh;
+      
+  }
+
+  .background-tintos img, .background-blancos img, .background-rosados img {
+      opacity: 0.6;
+  }
+
+  .background-tintos > div p, .background-blancos > div p, .background-rosados > div p {
+      font-size: 70px;
+      font-family: 'Poiret One';
+  }
+/*---------------------------------------------------*/
+
+
+}
+
+
+
+/*============================== TABLET ==============================*/
+@media only screen and (min-device-width: 768px)  and (max-width: 1281px){
+
+/*----------------NUESTROS VINOS----------------------*/
+  .cabecera-vinos h1{
+      font-size: 45px;
+  }
+
+  .background-tintos, .background-blancos, .background-rosados {
+      height: 30vh;
+  }
+
+/*----------------------------------------------------*/
+
+
+}   
