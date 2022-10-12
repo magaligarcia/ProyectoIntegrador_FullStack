@@ -144,6 +144,15 @@ body {
   display: inline;
   font-family: 'Poiret One', cursive;
   color: var(--rosa-claro);
+  font-size: 40px;
+  transition: all 0.6s;
+ }
+
+ .cabecera-vinos a p:hover{
+  border-radius: 18px;
+  border: 2px solid var(--rosa-claro);
+  padding: 10px;
+  opacity: 0.5;
  }
 
 .cards-container {
@@ -201,10 +210,9 @@ body {
   transition: 0.2s all;
 }
 
-#nuestrosVinos .btn-primary:hover{
+.btn-cards:hover{
   background-color: var(--rosa-oscuro);
   color: var(--vino-oscuro);
-  border: 1px solid var(--vino-oscuro);
   border-radius: 18px;
 }
 
@@ -223,36 +231,49 @@ body {
 /***************************************************************************/
 
 /*============================== PHONE ==============================*/
-@media only screen and (min-device-width: 320px){
+@media only screen and (min-device-width: 320px) and (max-width: 767px){
 
 /*----------------NUESTROS VINOS----------------------*/
   .cabecera-vinos h1{
       font-size: 30px;
   }
 
-  .background-tintos, .background-blancos, .background-rosados {
+  .background-tintos, 
+  .background-blancos, 
+  .background-rosados {
       height: 25vh;
       
   }
 
-  .background-tintos img, .background-blancos img, .background-rosados img {
+  .background-tintos img, 
+  .background-blancos img, 
+  .background-rosados img {
       opacity: 0.6;
   }
 
-  .background-tintos > div p, .background-blancos > div p, .background-rosados > div p {
+  .background-tintos > div p, 
+  .background-blancos > div p, 
+  .background-rosados > div p {
       font-size: 70px;
       font-family: 'Poiret One';
   }
 
-.product-info p{
-  font-size: 3vw;
-  line-height: 28px;
-}
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, 80%);
+    /* auto-fill= cantidad de columnas, 240px= tamaño de la columna*/
+    gap: 20px;
+    /*Espacio entre cards*/
+  }
 
-#nuestrosVinos .btn-primary {
-  width: 10vw;
-  margin: 0%;
-  font-size: 14px;
+  .product-info p{
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .btn-cards {
+    width: 100px;
+    margin: 0%;
+    font-size: 30px;
 }
 /*---------------------//----------------------------*/
 
@@ -265,12 +286,29 @@ body {
 @media only screen and (min-device-width: 768px)  and (max-width: 1281px){
 
 /*----------------NUESTROS VINOS----------------------*/
-  .cabecera-vinos h1{
-      font-size: 45px;
+  .cabecera-vinos{
+    padding: 0px;
   }
-
+  
+  .cabecera-vinos a p{
+    display: block;
+    font-size: 30px;
+    margin: 0px;
+  }
   .background-tintos, .background-blancos, .background-rosados {
       height: 30vh;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, 40%);
+    /* auto-fill= cantidad de columnas, 240px= tamaño de la columna*/
+    gap: 50px;
+    /*Espacio entre cards*/
+  }
+
+  .product-info p{
+    font-size: 40px;
+    line-height: 30px;
   }
 
 /*-----------------------//---------------------------*/
