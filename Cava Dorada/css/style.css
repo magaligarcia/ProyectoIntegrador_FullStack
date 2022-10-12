@@ -121,34 +121,98 @@ body {
   transition: opacity 500ms;
 }
 
-/*--- TINTOS ---*/
-.cabecera-vinos h1{
+/*--- CARDS TINTOS / BLANCOS / ROSADOS ---*/
+
+.home-icon img{
+  position:absolute;
+  width: 50px;
+  margin: 15px;
+}
+.cabecera-vinos{
   text-align: center;
-  font-family: 'Poiret One', cursive;
-  color: var(--rosa-claro);
   background-color: var(--vino-oscuro);
   padding: 26px;
 }
 
-.card-vino{
-  background-color: var(--rosa-claro);
-  padding: 8px;
-  border-radius: 6px;
-}
-
-.card-vino-title{
-  font-family: 'Poiret One';
-  font-size: 40px;
-}
-
-.btn-carrito{
+.cabecera-vinos a{
   text-decoration: none;
-  background-color: var(--vino-medio);
+  margin-left: 100px ;
+  margin-right: 100px;
+}
+
+.cabecera-vinos a p{
+  display: inline;
+  font-family: 'Poiret One', cursive;
+  color: var(--rosa-claro);
+ }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 26%);
+  /* auto-fill= cantidad de columnas, 240px= tamaño de la columna*/
+  margin: 40px 0px 40px;
+  gap: 40px;
+  /*Espacio entre cards*/
+  place-content: center;
+}
+
+.product-card {
+  width: 100%;
+  background-color: var(--rosa-claro);
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product-card > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-info {
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-info > p{
+  font-family: 'Poiret One', cursive;
+  color: var(--vino-oscuro);
+  font-size: 2vw;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  line-height: 34px;
+}
+
+.d-grid{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cards {
+  width: 30%;
+  background-color: var(--vino-oscuro);
   padding: 6px;
-  border-radius: 6px;
+  border: none;
+  border-radius: 10px;
   font-family: 'Roboto', sans-serif; 
   color: var(--blanco);
+  margin: 5px 10px 20px 10px;
+  transition: 0.2s all;
 }
+
+#nuestrosVinos .btn-primary:hover{
+  background-color: var(--rosa-oscuro);
+  color: var(--vino-oscuro);
+  border: 1px solid var(--vino-oscuro);
+  border-radius: 18px;
+}
+
+.modal-body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 5;
+  }
+
 
 
 
@@ -179,7 +243,18 @@ body {
       font-size: 70px;
       font-family: 'Poiret One';
   }
-/*---------------------------------------------------*/
+
+.product-info p{
+  font-size: 3vw;
+  line-height: 28px;
+}
+
+#nuestrosVinos .btn-primary {
+  width: 10vw;
+  margin: 0%;
+  font-size: 14px;
+}
+/*---------------------//----------------------------*/
 
 
 }
@@ -198,7 +273,7 @@ body {
       height: 30vh;
   }
 
-/*----------------------------------------------------*/
+/*-----------------------//---------------------------*/
 
 
 }   
