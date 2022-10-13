@@ -341,7 +341,7 @@ body {
 }
 
 .b-img {
- background-image: url(/assets/contacto/cata.jpg);
+ background-image: url(/assets/img/contacto/cata.jpg);
  background-position: center;
  background-size: cover;
 }
@@ -351,17 +351,17 @@ body {
 
 .footer {
   background: rgb(239,237,233);
-  color:#4D012B;
+  color:var(--vino-oscuro);
 }
 
 .footer a {
-  color:#4D012B;
+  color:var(--vino-oscuro);
   font-size: 1.5rem;
   transition: all 0.4s ease;
 }
 
 .footer a:hover {
-  color: rgb(229,208,123);
+  color: var(--dorado);
 }
 
 .br-footer {
