@@ -1,3 +1,3 @@
 #contacto > index.html
 
-#Enviar formulario de contacto ()
+#contactar(nombre, correo, mensaje)
