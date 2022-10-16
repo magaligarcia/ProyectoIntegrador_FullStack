@@ -1,0 +1,238 @@
+[33mcommit 2a85b573f6b463e506332191640cf754872d0bbf[m[33m ([m[1;36mHEAD -> [m[1;32mPpal[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Sat Oct 15 17:28:47 2022 -0300
+
+    Agregando img en seccion Nuestros Vinos, controladores mvc
+
+[33mcommit c9594cd75e564cbf69ea1365d72b4b3943e09b04[m
+Author: jotapegedev <juanpablogarcia796@gmail.com>
+Date:   Sat Oct 15 15:53:30 2022 -0300
+
+    seccion novedades y reserva resto
+
+[33mcommit 99949f62e4d4f7efc91c017e63b0b84465a0475b[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 18:59:44 2022 -0300
+
+    lista validcion edad
+
+[33mcommit bf684a0e53353828134e2574adcce26e1bc8506d[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 18:58:32 2022 -0300
+
+    listo el script de validacion de edad
+
+[33mcommit 658ed58c7d794085a30b0f96c8141082caa81b47[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 18:50:21 2022 -0300
+
+    Update index.html
+
+[33mcommit b0bc8dd476afce0320fb49de2193a25f9dcea4c4[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 18:49:30 2022 -0300
+
+    agregue validacion de edad pagina principal
+
+[33mcommit 356beb8327d0018aa9746ff5c835052372fe4433[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 17:13:32 2022 -0300
+
+    Update index.html
+
+[33mcommit bcf7bccf005a8f48d5f65fb02f9ad5a52a489a80[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Fri Oct 14 17:11:41 2022 -0300
+
+    cambie stilos
+
+[33mcommit bccb7486cf8251e10e68a77e7d680aeabf1bd1da[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Fri Oct 14 15:33:31 2022 -0300
+
+    Creando carpeta Modularidad - MVC
+
+[33mcommit 65a9110fb8b59ed77490d390604f21618512b702[m
+Author: Vale L <v.lysikova@gmail.com>
+Date:   Thu Oct 13 15:20:23 2022 -0300
+
+    Cambie el numero de tel en el footer
+
+[33mcommit 541b7ed1f539cd8b6cfad85cddaaa543ad8ddf0a[m
+Author: Vale L <v.lysikova@gmail.com>
+Date:   Thu Oct 13 15:06:46 2022 -0300
+
+    Agregue footer
+
+[33mcommit ea53dfc67bc68ebd70e2fb296a2bda4bd2054cb8[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Wed Oct 12 19:02:57 2022 -0300
+
+    Cambie clase css que interferia en otras secciones
+
+[33mcommit 123a3725a0bb60d658e4cb8c9684181b12801316[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Wed Oct 12 18:19:00 2022 -0300
+
+    conecte archvio de estilos
+
+[33mcommit f3a82727101d01602ff1e11f66d6dfc4dc23d8a0[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Wed Oct 12 17:29:44 2022 -0300
+
+    Seccion Nuestros Vinos - Corrigiendo responsive Movile
+
+[33mcommit 520c29a674fb14d56868c64ff25623a1e0eb6872[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Wed Oct 12 16:59:00 2022 -0300
+
+    Seccion Nuestros Vinos - agregando Responsive
+
+[33mcommit c54fbdb38f515184ec540c8ffb532607e4f02de6[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Wed Oct 12 10:32:07 2022 -0300
+
+    2da version seccion Nuestros Vinos
+
+[33mcommit 1f8b505e9d993fe9c1ccda8115c935f4a18793d4[m
+Author: Vale L <v.lysikova@gmail.com>
+Date:   Tue Oct 11 22:40:34 2022 -0300
+
+    Agregue seccion Contacto
+
+[33mcommit 50153632e6ec830ba9bda44d954c6263a7528d12[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 18:40:17 2022 -0300
+
+    Update index.html
+
+[33mcommit 9ec5e852513f010514a287eb49c4f1f6cc6aa53f[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 18:37:37 2022 -0300
+
+    reemplazo de nombre
+
+[33mcommit c16fb72404a6f3e6aa992a4069fa74495cc4823f[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 18:21:58 2022 -0300
+
+    Update index.html
+
+[33mcommit 1b90e667e17e1f79bbabb9969c9326397775062f[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 17:15:07 2022 -0300
+
+    Update index.html
+
+[33mcommit 0ea09a5f811e7b33c8483d36e15b34d4c80fd731[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 16:53:37 2022 -0300
+
+    subi el resto de imagenes
+
+[33mcommit 6d8ef0bb400343e018b58b1044dfd14e4b0b8fbb[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 16:53:14 2022 -0300
+
+    subi archivo imagen bodega
+
+[33mcommit 111daedd7df44674580b9db3413cd92f7a75184f[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 16:36:43 2022 -0300
+
+    Add files via upload
+
+[33mcommit bfd6114872debdfeda6a3a8beda22e12c549c174[m
+Author: silviconi <105822942+silviconi@users.noreply.github.com>
+Date:   Tue Oct 11 16:35:12 2022 -0300
+
+    Add files via upload
+
+[33mcommit 5a1a0ca1494a62d1d606a003680a3365c1599f15[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Sat Oct 8 18:22:46 2022 -0300
+
+    Primera version de seccion Nuestros Vinos
+
+[33mcommit 4269dadf4ce69abb9b28cc1d1d51b9fda4a47808[m
+Author: magaligarcia <magalimaribelgarcia@gmail.com>
+Date:   Fri Oct 7 21:37:10 2022 -0300
+
+    Agregue cada seccion en su carpeta y todas tienen el nav
+
+[33mcommit 1896466873d47e95587a5e9d2fec09cbe6b66b65[m
+Author: Vale L <v.lysikova@gmail.com>
+Date:   Fri Oct 7 13:24:03 2022 -0300
+
+    Agregue navbar
+
+[33mcommit 1c573331c63c6735384657cf8585cec92253b6bb[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Wed Oct 5 20:32:09 2022 -0300
+
+    Agregando Estructura base
+    
+    Index y secciones html ya enlazadas.
+    Icono de pestaña agregado.
+    Links CDN Bootstrap en cada sección.
+
+[33mcommit 9f521c697637a2a92907df8fa0a1192621388b8c[m
+Merge: e2a5d0d 951eede
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Sun Oct 2 19:53:26 2022 -0300
+
+    Merge pull request #25 from magaligarcia/main
+    
+    Actualizacion de rama dev
+
+[33mcommit 951eede9725eb654116e31c30dc578443f33ef2c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/Homepage[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Sun Oct 2 19:50:55 2022 -0300
+
+    Carga de IEEE-830 definitivo
+
+[33mcommit fa0b8186120128419e23e230d77b8c3a77ff730b[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Sun Oct 2 19:49:21 2022 -0300
+
+    Borrando IEEE830 Incompleto
+    
+    Elimino el archivo inicial incompleto para agregar el definitivo con todos los datos del proyecto.
+
+[33mcommit e2a5d0d17e30221181f6635a5d4e64dc7e4bfeb1[m
+Merge: 96f34d8 8cec1d8
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Sun Sep 25 14:57:39 2022 -0300
+
+    Merge pull request #6 from magaligarcia/main
+    
+    Agregue Banner y sección Autores
+
+[33mcommit 8cec1d8273de43115b22ec6e18db3bb01aca4762[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Sun Sep 25 14:40:38 2022 -0300
+
+    Agregue Banner y sección Autores
+
+[33mcommit 96f34d8bb6ad5a1731c6a5db29748998478d1b42[m
+Merge: b218b4a fb8d1a4
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Mon Sep 19 20:12:13 2022 -0300
+
+    Merge pull request #1 from magaligarcia/main
+    
+    Documentacion - IEEE830 - Planilla de propuestas
+
+[33mcommit fb8d1a4348e6ea1e589ef19f4dd36405d68cb562[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Mon Sep 19 20:11:18 2022 -0300
+
+    Documentacion - IEEE830 - Planilla de propuestas
+    
+    Se agrega la carpeta "Documentación" con la planilla de proyectos presentados en este cuatrimestre y el formato del documento IEEE-830 próximo a ser completado con información de nuestro proyecto "Bodega".
+
+[33mcommit b218b4a2c65a71b2f27b2c30915968fc27c78cf5[m
+Author: Magali Garcia <60717025+magaligarcia@users.noreply.github.com>
+Date:   Thu Sep 8 13:45:07 2022 -0300
+
+    Initial commit
