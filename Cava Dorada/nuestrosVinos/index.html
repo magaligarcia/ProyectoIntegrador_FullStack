@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/img/icons/wine-cup.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Nuestros Vinos</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="../"> <span class="brand-cava">Cava</span><span
+            class="brand-dorada">DORADA</span></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon custom-toggler"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../nuestrosVinos">Nuestros vinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../enoturismo">Enoturismo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../contacto">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="../login/loginISPC/" class="user">
+              <i class="fas fa-user px-3 "></i>
+              <a href="../carrito" class="cart">
+                <i class="fas fa-cart-shopping px-3"></i>
+              </a>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenedor-cepas">
+      <a id="link" href="../nuestrosVinos/tintos/">
+        <div class="background-tintos">
+          <div class="p-tintos">
+            <p>TINTOS</p>
+          </div>
+          <img src="../assets/img/nuestros-vinos/tinto.jpg" alt="Seccion de vinos tintos">
+        </div>
+      </a>
+    </section>
+    <section class="contenedor-cepas">
+      <a id="link" href="../nuestrosVinos/blancos/">
+        <div class="background-blancos">
+          <div class="p-blancos">
+            <p>BLANCOS</p>
+          </div>
+          <img src="../assets/img/nuestros-vinos/blanco 3.jpg" alt="Seccion de vinos blancos">
+        </div>
+      </a>
+    </section>
+    <section class="contenedor-cepas">
+      <a id="link" href="../nuestrosVinos/rosados/">
+        <div class="background-rosados">
+          <div class="p-rosados">
+            <p>ROSADOS</p>
+          </div>
+          <img src="../assets/img/nuestros-vinos/rose.jpg" alt="Seccion de vinos rosados">
+        </div>
+      </a>
+    </section>
+
+     <!-- modal newsletter -->
+     <script>
+      $(document).ready(function(){
+        $("#myModal").modal('show');
+      });
+    </script>
+  
+  
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-newsletter">
+        <div class="modal-content">
+          <form action="/examples/actions/confirmation.php" method="post">
+            <div class="modal-header-news">
+              <h4>Suscribite a nuestro Newsletter</h4>	
+              
+            </div>
+            <div class="modal-body-news text-center">				
+              <p class="news">Suscribite para recibir información y las últimas novedades</p>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Ingrese su email" required>
+                <input type="submit" class="btn btn-primary btn-block" value="Suscribite">
+              
+          </form>			
+        </div>
+      </div>
+    </div>
+   
+  <!-- fin modal newsletter -->
+
+
+
+
+  </main>
+  <!-- footer -->
+  <footer class="footer py-4">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="br-footer">CavaDorada</p>
+        </div>
+        <div class="col-md-4 contact-details">
+          <a href="mailto:administracion@cavadorada.com">
+            <p><i class="fa-solid fa-envelope"></i> administracion@cavadorada.com</p>
+          </a>
+          <a href="tel:+54-261-222222">
+            <p><i class="fa-solid fa-phone"></i> +54-261-222222</p>
+          </a>
+          <a href="https://maps.app.goo.gl/UAUN6YMA1vMhZQkB7" target="_blank">
+            <p><i class="fa-solid fa-location-pin"></i> Banegas M5620, Tunuyán, Mendoza, Argentina</p>
+          </a>
+        </div>
+        <div class="col-md-4 text-end">
+          <div class="iconos">
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram px-3"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook px-3"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter px-3"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center sub-cont"> CavaDorada&copy;2022 - Beber con moderación. Prohibida la venta de alcohol a
+        menores de 18 años.</p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
