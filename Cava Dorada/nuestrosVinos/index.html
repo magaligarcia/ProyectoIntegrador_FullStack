@@ -12,6 +12,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
   <title>Nuestros Vinos</title>
 </head>
@@ -87,6 +89,39 @@
         </div>
       </a>
     </section>
+
+     <!-- modal newsletter -->
+     <script>
+      $(document).ready(function(){
+        $("#myModal").modal('show');
+      });
+    </script>
+  
+  
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-newsletter">
+        <div class="modal-content">
+          <form action="/examples/actions/confirmation.php" method="post">
+            <div class="modal-header-news">
+              <h4>Suscribete a nuestro Newsletter</h4>	
+              
+            </div>
+            <div class="modal-body-news text-center">				
+              <p class="news">Suscribite para recibir información y las últimas novedades</p>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Ingrese su email" required>
+                <input type="submit" class="btn btn-primary btn-block" value="Suscribite">
+              
+          </form>			
+        </div>
+      </div>
+    </div>
+   
+  <!-- fin modal newsletter -->
+
+
+
+
   </main>
   <!-- footer -->
   <footer class="footer py-4">
