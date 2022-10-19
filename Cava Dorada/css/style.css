@@ -661,6 +661,14 @@ input {
     /*Espacio entre cards*/
   }
 
+  html {
+    box-sizing: border-box;
+    margin: auto;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
   .product-info p{
     font-size: 60px;
     line-height: 50px;
@@ -890,14 +898,6 @@ display: flex;
   font-family: 'Bowlby One', cursive !important;
   padding-bottom: 20px;
   text-transform: uppercase;
-}
-
-html {
-  box-sizing: border-box;
-  margin: auto;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 .centrar-texto{ 
