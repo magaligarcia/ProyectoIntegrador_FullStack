@@ -43,9 +43,9 @@
           <form class="d-flex">
             <a href="../login/loginISPC/" class="user">
               <i class="fas fa-user px-3 "></i>
-              <a href="../carrito" class="cart">
-                <i class="fas fa-cart-shopping px-3"></i>
-              </a>
+            </a>
+            <a href="../carrito" class="cart">
+              <i class="fas fa-cart-shopping px-3"></i>
             </a>
           </form>
         </div>
@@ -64,15 +64,15 @@
         <div class="col md-6 b-img me-3">
         </div>
         <div class="col-md-6 ">
-          <form action="#" class="row g-4">
+          <form name="form" action="#" class="row g-4" onsubmit="return validar()">
             <label for="nombre" class="etiqueta">Nombre*</label>
-            <input type="text" id="nombre" class="form-control mt-2" required>
+            <input type="text" name="nombre" id="nombre" class="form-control mt-2" required maxlength="20">
             <label for="mail" class="etiqueta">Correo electrónico*</label>
-            <input type="email" id="mail" class="form-control mt-2" required>
+            <input type="email" name="correo" id="mail" class="form-control mt-2" required>
             <label for="mensaje" class="etiqueta">Mensaje*</label>
-            <textarea id="mensaje" cols="30" rows="7" class="form-control mt-2"></textarea>
+            <textarea id="mensaje" name="mensaje" cols="30" rows="7" class="form-control mt-2"></textarea>
             <div class="text-center d-grid">
-              <button class="btn btn-primary" type="submit">Enviar</button>
+              <button class="btn btn-primary" type="submit" onclick="validar()">Enviar</button>
             </div>
           </form>
         </div>
@@ -112,7 +112,7 @@
   </footer>
 
 
-
+  <script src="contacto.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
